@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class GroupService {
-  private baseURL = 'http://localhost:8080/api/group';
+  private baseURL = 'https://elca-bootcamp-production.up.railway.app/api/group';
 
   constructor(private httpClient: HttpClient) {}
 

@@ -7,7 +7,8 @@ import { ProjectForm } from '../model/projectForm';
   providedIn: 'root',
 })
 export class ProjectService {
-  private baseURL = 'http://localhost:8080/api/project';
+  private baseURL =
+    'https://elca-bootcamp-production.up.railway.app/api/project';
   constructor(private httpClient: HttpClient) {}
   getProjectsList(): Observable<ProjectForm[]> {
     return this.httpClient.get<ProjectForm[]>(`${this.baseURL}/list`);
