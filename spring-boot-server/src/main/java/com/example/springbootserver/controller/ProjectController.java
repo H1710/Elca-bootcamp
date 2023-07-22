@@ -13,7 +13,7 @@ import java.util.*;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://elca-bootcamp-production.up.railway.app")
 public class ProjectController {
 
     @Autowired
