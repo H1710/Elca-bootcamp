@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "https://elca-bootcamp-production.up.railway.app")
+@CrossOrigin(origins = "https://elca-bootcamp-qhh5.vercel.app")
 public class GroupController {
     @Autowired
     private GroupService groupService;
